@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px 'Lucida Console', Monaco, monospace;
+  background-image: url("http://designrelated.tv/inspiration/phil-interview/resized-images-feature/twitter_bird_logo_by_biz-stone.jpg");
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+	font-family: ‘Lucida Console’, Monaco, monospace;	
+	font-size: 18px; 
+	color: #4099FF;
+	text-align: center;
+}
+
+#compose_tweet_dialog{
+	float: left;
+	display: inline-block;
+	padding-left:35px;
+	padding-top:35px;
+	width:200px;
+}
+
+#display_tweets{
+	float:right;
+	display: inline-block;
+	width:700px;
+	border: 10px ridge #4099FF;
+	border-radius: 20px;
+}
+
+#tweet_id{
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+#sign_up_link{
+	font-size: 10px;
+}
+
+#login_dialog{
+	text-align: center;
+	padding-top: 130px;
+}

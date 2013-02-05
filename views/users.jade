@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1 User directory
+	div
+		each user, i in users
+			div(value=user, id="user_id") 
+				|Username: #{user.name}
+				form(class='deleteUser', method='post', action='/user/delete')
+					input(type="hidden", value="#{user._id}", name="id")
+					button
+						| Remove Account
+			br 
+			br

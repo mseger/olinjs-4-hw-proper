@@ -1,0 +1,15 @@
+extends layout 
+
+block content
+	div(id="login_dialog") 
+		h1 Please Log in/ Sign up 
+		form(name="login_form", action="/users/new", method="post")
+			| Log in:
+			input(type="text", name="username")
+			input(type="submit", value="Log in")
+		| or
+		form(name="input_form", action="/users/new", method="post")
+			| Sign up:
+			input(type="text", name="name")
+
+			input(type="submit", value="Create Account")
